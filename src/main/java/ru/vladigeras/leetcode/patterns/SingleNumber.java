@@ -25,4 +25,8 @@ public class SingleNumber {
         }
         return refSum - sum;
     }
+
+    public static int singleNumber3(int[] nums) {
+        return Arrays.stream(nums).boxed().reduce(0, (x, y) -> x ^ y);
+    }
 }
