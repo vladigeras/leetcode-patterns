@@ -14,4 +14,28 @@ public class DisappearedNumbers {
         range.removeAll(uniqueCurrent);
         return new ArrayList<>(range);
     }
+
+    public static List<Integer> findDisappearedNumbers2(int[] nums) {
+        var i = 0;
+        var position = 0;
+        while (i < nums.length) {
+            position = nums[i] - 1;
+            if (nums[i] != nums[position]) {
+                var temp = nums[i];
+                nums[i] = nums[position];
+                nums[position] = temp;
+            } else {
+                i += 1;
+            }
+        }
+
+        var missing = new ArrayList<Integer>();
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != j + 1) {
+                missing.add(j + 1);
+            }
+        }
+        return missing;
+    }
+
 }
