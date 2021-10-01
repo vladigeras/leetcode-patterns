@@ -6,4 +6,5 @@ This project contains solutions of typical [LeetCode](https://leetcode.com) task
 - [Single number](https://leetcode.com/problems/single-number)
 - [Climb stairs](https://leetcode.com/problems/climbing-stairs)
 - [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [Maximum subarray](https://leetcode.com/problems/maximum-subarray)
 - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
