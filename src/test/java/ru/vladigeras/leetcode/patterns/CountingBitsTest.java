@@ -9,7 +9,7 @@ import static ru.vladigeras.leetcode.patterns.CountingBits.countBits2;
 class CountingBitsTest {
 
     @Test
-    void shouldCountingBitsqualsTo() {
+    void shouldCountingBitsEqualsTo() {
         assertArrayEquals(new int[]{0, 1, 1}, countBits(2));
         assertArrayEquals(new int[]{0, 1, 1, 2, 1, 2}, countBits(5));
 
