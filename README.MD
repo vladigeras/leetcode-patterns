@@ -9,3 +9,9 @@ This project contains solutions of typical [LeetCode](https://leetcode.com) task
 - [Maximum subarray](https://leetcode.com/problems/maximum-subarray)
 - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [Counting bits](https://leetcode.com/problems/counting-bits)
+
+Algorithms:
+- Traverse tree (horizontal)
+- Traverse tree (vertical)
+- Binary tree search
+- Reverse binary tree
