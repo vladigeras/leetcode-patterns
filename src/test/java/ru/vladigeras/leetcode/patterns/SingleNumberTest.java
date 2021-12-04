@@ -2,8 +2,6 @@ package ru.vladigeras.leetcode.patterns;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.vladigeras.leetcode.patterns.SingleNumber.singleNumber;
 import static ru.vladigeras.leetcode.patterns.SingleNumber.singleNumber2;

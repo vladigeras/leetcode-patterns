@@ -15,3 +15,4 @@ Algorithms:
 - Traverse tree (vertical)
 - Binary tree search
 - Reverse binary tree
+- Binary search in array
