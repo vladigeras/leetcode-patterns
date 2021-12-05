@@ -16,3 +16,4 @@ Algorithms:
 - Binary tree search
 - Reverse binary tree
 - Binary search in array
+- Quick sort array

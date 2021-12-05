@@ -6,6 +6,7 @@ import static java.util.Objects.isNull;
 
 public class BinarySearchInArray {
 
+    // O(log(n))
     public static int binarySearch(List<Integer> input, Integer value) {
         if (isNull(input) || input.isEmpty()) {
             return -1;
