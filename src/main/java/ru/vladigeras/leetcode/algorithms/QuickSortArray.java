@@ -8,7 +8,7 @@ public class QuickSortArray {
 
     // O(n * log(n))
     public static void quickSort(List<Integer> input) {
-        if (isNull(input) || input.size() < 2) {
+        if (isNull(input)) {
             return;
         }
         quickSort(input, 0, input.size() - 1);
